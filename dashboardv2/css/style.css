@@ -1,0 +1,52 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'roboto','Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  min-height: 100vh;
+  /*fondo  linear gradient */
+  background: linear-gradient(45deg, #f5f5f5, #fff);
+  background: white;
+}
+
+
+h1{
+  font-family: 'Lora', serif;
+  color: #333;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-shadow: 2px 2px 2px #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+form {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ececec, #b5b3b3);
+  box-shadow: 25px 25px 50px #bebebe, -25px -25px 50px #ffffff;
+}
